@@ -1,0 +1,9 @@
+list1=[1,2,3,45,5,678,89]
+list2=[56,45,"python","hello"]
+print(list1)
+print(list2)
+print(list2[-1])
+print(list2[1])
+print(len(list2))
+print(type(list2))
+print(list1+list2)
