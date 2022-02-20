@@ -19,7 +19,7 @@ newmenu.add_command(label="undo",command=fun1)
 toolbar=Frame(root,bg='pink')
 inbutton=Button(toolbar,text="crop")
 inbutton.pack(side=TOP,padx=5,pady=6)
-stauesbar=Label(root,text="this is bar",bd=2)
+stauesbar=Label(root,text="this is bar", relief=SUNKEN,bd=10,anchor=W,)
 stauesbar.pack(side=BOTTOM,fill=X)
 toolbar.pack(side=TOP,fill=X)
 
