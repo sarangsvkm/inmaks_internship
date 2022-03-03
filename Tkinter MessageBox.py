@@ -1,7 +1,7 @@
 from Tkinter import *
 from tkinter import  messagebox
 root=Tk()
-#messagebox.showinfo('tittle',"this is my info")
+messagebox.showinfo('tittle',"this is my info")
 #messagebox.showwarning('tittle',"this is warning")
 #messagebox.showerror('title',"this is error")
 #messagebox.askquestion("tittle","tell me")
